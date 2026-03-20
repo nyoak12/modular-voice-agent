@@ -1,0 +1,12 @@
+# Provider options:
+#   ollama
+#   openai_responses
+#   openai_responses_mock
+provider=ollama
+model=qwen2.5:14b
+temperature=0.5
+max_output_tokens=125
+reasoning_effort=medium
+system_prompt_path=system_prompt.txt
+ollama_url=http://localhost:11434/v1/chat/completions
+openai_url=https://api.openai.com/v1/responses

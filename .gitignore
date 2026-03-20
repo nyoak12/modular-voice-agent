@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Local binaries
+main
+
+# Local model weights
+ggml-base.en.bin
+
+# Environment / secrets
+.env
+.env.*
+
+# Local build output
+whisper.cpp/build/
+
+# Editor settings
+.vscode/
+.idea/
